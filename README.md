@@ -8,11 +8,11 @@ Developed an intelligent resume screening system that automatically evaluates an
 
 **Libraries:**
 
-*scikit-learn → TF-IDF Vectorizer, Cosine Similarity, KNN Classifier
+ scikit-learn → TF-IDF Vectorizer, Cosine Similarity, KNN Classifier
 
-*pandas, numpy → Data manipulation and preprocessing
+ pandas, numpy → Data manipulation and preprocessing
 
-*matplotlib, seaborn  → Visualization of similarity score distributions
+ matplotlib, seaborn  → Visualization of similarity score distributions
 
 **IDE/Environment:** Jupyter Notebook / VS Code
 
