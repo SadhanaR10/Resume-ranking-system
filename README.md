@@ -12,11 +12,7 @@ scikit-learn → TF-IDF Vectorizer, Cosine Similarity, KNN Classifier
 
 pandas, numpy → Data manipulation and preprocessing
 
-NLTK / spaCy (optional) → Stopword removal, tokenization, lemmatization
-
-PyPDF2, python-docx (optional) → Text extraction from resumes (PDF/DOCX)
-
-matplotlib, seaborn (optional) → Visualization of similarity score distributions
+matplotlib, seaborn  → Visualization of similarity score distributions
 
 **IDE/Environment:** Jupyter Notebook / VS Code
 
@@ -38,17 +34,17 @@ Stopword elimination
 
 Tokenization and lemmatization (via spaCy/NLTK)
 
-Step 3: Feature Extraction
+**Step 3:** Feature Extraction
 
 Converts JD and resumes into TF-IDF vectors representing text numerically
 
-Step 4: Similarity Calculation
+**Step 4:** Similarity Calculation
 
 Computes Cosine Similarity between the job description and each resume
 
 Higher similarity = better candidate match
 
-Step 5: Grading System
+**Step 5:** Grading System
 
 Rule-based grading:
 
@@ -60,7 +56,7 @@ Low Fit → < 0.20
 
 KNN Classifier: Trained on similarity scores to predict grades for unseen resumes
 
-Step 6: Ranking & Output
+**Step 6**: Ranking & Output
 
 Ranks resumes based on similarity score
 
